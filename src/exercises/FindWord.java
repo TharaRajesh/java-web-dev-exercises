@@ -9,16 +9,17 @@ public class FindWord {
         Scanner input = new Scanner(System.in);
         System.out.println("Please Enter the word?");
         String find= input.nextLine();
-        Integer index = str .indexOf(find);
-        Integer length = find.length();
+
         if(str.toLowerCase().contains(find)){
             System.out.println("yes,the word is found!");
         }else{
             System.out.println("No ,the word is not found!");
         }
-
-        System.out.println("Your search term first appears at index " + index + ". Your term is " + length + " characters long.");
-        String modifiedSentence = str.replace(find, "he");
+      //
+        Integer index = str .indexOf(find);
+        Integer length = find.length();
+        System.out.println("Your search word first appears at index " + index + ". Your word is " + length + " characters long.");
+        String modifiedSentence = str.replace(find, "brother");
         System.out.println(modifiedSentence);
     }
 }
