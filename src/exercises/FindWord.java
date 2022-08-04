@@ -19,6 +19,7 @@ public class FindWord {
         Integer index = str .indexOf(find);
         Integer length = find.length();
         System.out.println("Your search word first appears at index " + index + ". Your word is " + length + " characters long.");
+
         String modifiedSentence = str.replace(find, "brother");
         System.out.println(modifiedSentence);
     }
