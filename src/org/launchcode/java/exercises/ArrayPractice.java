@@ -1,5 +1,5 @@
-package exercises;
-import java.util.Scanner;
+package org.launchcode.java.exercises;
+
 public class ArrayPractice {
     public static void main(String[] args) {
         int intArr[] = {1, 1, 2, 3, 5, 8};
