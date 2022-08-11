@@ -1,5 +1,7 @@
 package org.launchcode.java.exercises;
 
+import java.util.Arrays;
+
 public class ArrayPractice {
     public static void main(String[] args) {
         int intArr[] = {1, 1, 2, 3, 5, 8};
@@ -12,9 +14,8 @@ public class ArrayPractice {
                 " I would not, could not with a fox. " +
                 "I will not eat them in a house. " +
                 "I will not eat them with a mouse.";
-        String[] words = str.split("\\s");//splits the string based on whitespace
-        for(String word:words){
-            System.out.println(word);
-        }
+        String[] words = str.split(" ");//splits the string based on whitespace
+              System.out.println(Arrays.toString(words));
+
     }
 }
